@@ -31,7 +31,8 @@
                 position: relative;
                 display: inline-block;
                 width: 60px;
-                height: 34px;
+                height: 35px;
+                padding-bottom: 0px;
                 }
 
                 /* Hide default HTML checkbox */
@@ -82,7 +83,7 @@
 
                 /* Rounded sliders */
                 .slider.round {
-                border-radius: 34px;
+                border-radius: 30px;
                 }
 
                 .slider.round:before {
@@ -90,7 +91,7 @@
                 }
         </style>
     </head>
-    <body style="overflow-x: hidden; position: relative; margin: 0; padding: 0; font-family: 'VT323', 'Ubuntu', sans-serif; color: #00cc01 !important; background-color: #1b1b1b;">
+    <body style="overflow-x: hidden; position: relative; margin: 0; padding: 0; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: #00cc01 !important; background-color: #1b1b1b;">
 <!-- *****************************************************HOME***************************************************** -->
         <div style="width: 100vw; height: 100vh;">
             <div style="background-color: rgb(0, 0, 0, 0.1);">
@@ -113,7 +114,7 @@
                     <div style="top: 35%; position: relative;">
                         <div class="home-content">
                             <div class="details">
-                                <h2 style="margin: 0; padding: 0; color: #00cc01;">Hi I'm</h3>
+                                <h2 style="margin: 0; padding: 0; color: #00cc01;">Hi I'm</h2>
                                 <h1 style="margin: 0; padding: 0; color: #00cc01;">Anubhav Sethi</h1>
                                 <h2 style="font-size: x-large; color: #00cc01;" id="changeText">Department of Computer Science, University of Delhi</h2>
                             </div>
@@ -130,11 +131,13 @@
                                 </div>
                             </center>
                             <div style="margin-top: 20px;">
-                                <p style="display: inline; font-size: xx-large;">See me painting </p>
-                                <label class="switch">
-                                    <input type="checkbox" onclick="toggle()">
-                                    <span class="slider round"></span>
-                                </label>
+                                <p style="display:inline; font-size: xx-large;">See me painting </p>
+                                <div style="display: block; padding-top: 10px;";">
+                                    <label class="switch">
+                                        <input type="checkbox" onclick="toggle()">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -142,15 +145,15 @@
             </div>
         </div>
         <div style="width: 100vw; margin: auto;">
-            <center style="font-size: 35px;">Open Source Projects</center>
+            <center style="font-size: 40px;">Open Source Projects</center>
             <hr style="color: springgreen; width: 30vw;">
             <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; margin: 5px;">
                 <div class="project-modal">
-                    <h1>Sorting Visualizer</h1>
+                    <h1>Sorting Visualizer</h1> <br>
                     <a target="_blank" href="https://lifeofageek.github.io/Sorting-Visualizer/"> Link : https://lifeofageek.github.io/Sorting-Visualizer/</a>
                     <p>
                         Visualizes the popular sorting algorithms and makes it easy to understand the algorithm flow for the beginners.
-                        <br>Tech : HTML, CSS, JavaScipt, Github-Pages.
+                        <br>Tech Stack : HTML, CSS, JavaScipt.
                     </p>
                 </div>
             </div>
@@ -172,7 +175,7 @@
                 font-size: 18px;
             }
             .project-modal > p{
-                font-size: 25px;
+                font-size: 20px;
             }
         </style>
 		<script>
@@ -187,7 +190,7 @@
                 console.log(painting);
                 painting = !painting;
                 if(painting){
-                    opacity = 0.05;
+                    opacity = 0.1;
                 }else{
                     opacity = 0.5;
                 }

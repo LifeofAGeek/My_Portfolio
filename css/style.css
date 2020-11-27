@@ -10,15 +10,6 @@
 	}
 }
 @media only screen and (max-width: 450px){
-	.dp{
-		margin-left: 0% !important;
-	}
-	.dp img{
-		width: 150px !important;
-		height: 150px !important;
-	}
-}
-@media only screen and (max-width: 450px){
 	.details h3,.details h2,.details h1{
 		text-align: center !important;
 		margin-left: 0px !important;
@@ -46,7 +37,7 @@
 	}
 	#toggle{
 	  z-index: 10000;
-	  width: 60px;
+	  width: 45px;
 	  height: 45px;
 	  display: block;
 	  float: right;
@@ -202,14 +193,14 @@
 
 .brand{
 	color: #E1E8ED;
-	font-size: 150%;
-	letter-spacing: 7px;
+	font-size: 100%;
+	letter-spacing: 5px;
 	transition:letter-spacing .2sec;
 	-moz-transition:letter-spacing .2s;
 	-webkit-transition:letter-spacing .2s;
 }
 .brand:hover{
-	letter-spacing: 12px;
+	letter-spacing: 10px;
 }
 .overlay{
 	position: absolute;
@@ -222,8 +213,9 @@ nav div{
 
 .nav-brand{
 	padding-top: 5px;
-	padding-left: 10px;
-	margin-left: 10px;
+	padding-left: 5px;
+	margin-left: 5px;
+	font-size: 1em;
 	float: left;
 }
 
@@ -245,11 +237,11 @@ nav div{
 .nav-items a{
 	text-decoration: none;
 	display: block;
-/*                margin-top: .4em;*/
-	margin: .4em .2em .2em .1em;
+    /* margin-top: 1em; */
+	margin: .2em .2em .2em .1em;
 	padding: .5em .5em;
 	text-align: center;
-	font-size: 1.7em;
+	font-size: 2.7em;
 	letter-spacing: 2.5px;
 }
 a.single{
@@ -267,7 +259,7 @@ a.single{
 }
 li a:hover:not(.active) {
 	color: #9893DA;
-	letter-spacing: 4px;
+	letter-spacing: 10px;
 	transition:letter-spacing .2sec;
 	-moz-transition:letter-spacing .2s;
 	-webkit-transition:letter-spacing .2s;
