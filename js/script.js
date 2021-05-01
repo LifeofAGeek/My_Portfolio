@@ -1,8 +1,7 @@
 /*Changing Institune name*/
 let text = [
-  "Open Source Contibutor",
   "Competitive Programmer",
-  "Android Developer",
+  "Web Developer",
   "Department of Computer Science, University of Delhi",
 ];
 var counter = 1;
